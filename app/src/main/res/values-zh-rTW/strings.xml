@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">dbTest</string>
+    <string name="cost">金額</string>
+    <string name="info">說明</string>
+    <string name="confirm">確認</string>
+</resources>
