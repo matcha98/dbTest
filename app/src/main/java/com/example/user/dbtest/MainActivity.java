@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
         it.putExtra("info",ed2.getText().toString());
         startActivity(it);
     }
+
+    public void click3(View v)
+    {
+        Intent it=new Intent(MainActivity.this,Main3Activity.class);
+        startActivity(it);
+    }
 }

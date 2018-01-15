@@ -34,10 +34,10 @@ public class Main2Activity extends AppCompatActivity {
     public void click3(View v)
     {
         Cursor c=helper.query();
-        c.moveToFirst();
+        //c.moveToFirst();
         String str="";
         while(c.moveToNext()){
-            str=str+c.getString(2)+"\n";
+            str=str+"id "+c.getInt(0)+" "+c.getString(2)+"\n";
         }
         tv3.setText(str);
     }
